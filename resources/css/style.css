@@ -42,5 +42,36 @@ nav span{
   display: flex;
   position: relative;
   top: 100px;
+  border: 3px solid black;
+  justify-content: space-around;
 
+
+}
+
+.Small {
+  border: 2px solid black;
+  display: flex;
+  width: 240px;
+    flex-wrap: wrap;
+
+}
+
+.Medium {
+  border: 2px solid black;
+  display: flex;
+  width: 300px;
+    flex-wrap: wrap;
+
+}
+
+.Large {
+  border: 2px solid black;
+  display: flex;
+  width: 630px;
+    flex-wrap: wrap;
+
+}
+
+.Main p,h2,span,img{
+  border: 1px solid black;
 }
