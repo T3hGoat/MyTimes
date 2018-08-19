@@ -14,6 +14,7 @@ header {
   position: fixed;
   height: 80px;
   z-index: 1;
+  background-color: white;
 }
 
 .MainLogo{
@@ -22,10 +23,24 @@ header {
 
 header nav{
   padding-right: 40px;
+  justify-content: space-between;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
 }
 
 .MainLogo {
   color: MediumAquamarine;
   display: flex;
   align-items: center;
+  padding-left: 30px;
+}
+
+.Main {
+  display: flex;
+  position: relative;
+  top: 100px;
+
 }
