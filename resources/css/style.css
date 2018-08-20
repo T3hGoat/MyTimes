@@ -43,7 +43,9 @@ nav span{
   position: relative;
   top: 100px;
   border: 3px solid black;
-  justify-content: space-around;
+  justify-content: space-between;
+  width: 1232px;
+  margin: 0 auto;
 
 
 }
@@ -52,7 +54,8 @@ nav span{
   border: 2px solid black;
   display: flex;
   width: 240px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
 
 }
 
@@ -60,7 +63,8 @@ nav span{
   border: 2px solid black;
   display: flex;
   width: 300px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
 
 }
 
@@ -68,10 +72,16 @@ nav span{
   border: 2px solid black;
   display: flex;
   width: 630px;
-    flex-wrap: wrap;
+  flex-wrap: wrap;
+  flex-direction: column;
 
 }
 
-.Main p,h2,span,img{
+.Main p,.Main h2,.Main span,.Main img, .text-main{
   border: 1px solid black;
+}
+
+.text-main{
+  border: 3px solid green;
+
 }
