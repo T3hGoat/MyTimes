@@ -37,11 +37,12 @@ nav span{
 .Main {
   display: flex;
   position: relative;
-  top: 150px;
+  top: 120px;
   border: 3px solid blue;
   justify-content: space-between;
   width: 1232px;
   margin-bottom: 50px;
+  margin: 0 auto 50px; auto;
 }
 
 .Small {
@@ -67,7 +68,7 @@ nav span{
 }
 
 .Main p,.Main h2,.Main span,.Main img, .textmain{
-  border: 1px solid red;
+  ..border: 1px solid red;
 }
 
 .Main p{
@@ -130,4 +131,27 @@ nav span{
   display: flex;
   flex-direction: column;
   width: 300px;
+}
+
+.endlinks{
+  display: flex;
+  flex-direction: column;
+  background-color: WhiteSmoke;
+ font-family: Verdana;
+ font-size: 12px;
+ color: DimGray;
+ justify-content: space-between;
+ height: 300px;
+}
+
+.bitesHead h2{
+font-size: 16px;
+ font-weight: bold;
+ text-align: center;
+}
+.endlinks span{
+  margin: 0px;
+  border-bottom: 1px solid black;
+  padding: 10px 20px;
+
 }
